@@ -1,0 +1,108 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.WorldMap{
+border: 4px #AAA solid;
+padding:15px;
+margin:20px auto;
+width:800px;
+height:300px;
+position:relative;
+background: url('Delawaremap.svg');
+}
+
+.ExpoHall{
+border: 1px lime dashed;
+padding:5px;
+margin:30px;
+width: 100px;
+height:80px;
+position:relative;
+display:inline-block;
+}
+
+.ExpoHall2{
+border: 1px lime dashed;
+padding:5px;
+margin:30px;
+width: 100px;
+height:80px;
+position:absolute;
+top:400px;
+left:155px;
+display:inline-block
+}
+
+#expodetails{
+
+width:800px;
+height:150px;
+padding:15px;
+margin:20px auto;
+text-align:center;
+
+}
+
+.ExpoHallMap{
+border: 4px brown solid;
+padding:15px;
+margin:20px auto;
+width:800px;
+height:300px;
+position:relative;
+
+  background-color: #DDD;
+  background:url('grid-example.png') repeat;
+
+}
+
+.Stand{
+border: 2px orange dashed;
+padding:5px;
+margin:30px;
+width: 80px;
+height:100px;
+top:10px;
+left:10px;
+position:relative;
+display:inline-block;
+}
+
+.StandDetailsImage{
+height:100px;
+width:100px;
+
+}
+
+.expoA{
+top:270px;
+left:29px;
+}
+
+.expoB{
+top:270px;
+left:290px;
+}
